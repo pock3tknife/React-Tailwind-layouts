@@ -1,10 +1,12 @@
-import { Home, Profile, SignIn, SignUp } from "@/pages";
+import { Home, Profile, SignIn, SignUp, Cards, SplitScreen } from "@/pages";
 import {
   HomeIcon,
   UserCircleIcon,
   ArrowRightOnRectangleIcon,
   UserPlusIcon,
   DocumentTextIcon,
+  Squares2X2Icon,
+  CodeBracketIcon,
 } from "@heroicons/react/24/solid";
 
 export const routes = [
@@ -15,11 +17,23 @@ export const routes = [
     element: <Home />,
   },
   {
+    icon: Squares2X2Icon,
+    name: "cards",
+    path: "/cards",
+    element: <Cards />,
+  },
+  {
+    icon: CodeBracketIcon,
+    name: "splitscreen",
+    path: "/splitscreen",
+    element: <SplitScreen />,
+  },
+  /*{
     icon: UserCircleIcon,
     name: "profile",
     path: "/profile",
     element: <Profile />,
-  },
+  },*/
   {
     icon: ArrowRightOnRectangleIcon,
     name: "Sign In",
