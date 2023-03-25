@@ -1,11 +1,19 @@
-import { Home, Profile, SignIn, SignUp, Cards, SplitScreen } from "@/pages";
+import {
+  Home,
+  Profile,
+  SignIn,
+  SignUp,
+  Cards,
+  SplitScreen,
+  Asymmetrical,
+} from "@/pages";
 import {
   HomeIcon,
   UserCircleIcon,
   ArrowRightOnRectangleIcon,
   UserPlusIcon,
-  DocumentTextIcon,
   Squares2X2Icon,
+  IdentificationIcon,
   CodeBracketIcon,
 } from "@heroicons/react/24/solid";
 
@@ -28,6 +36,12 @@ export const routes = [
     path: "/splitscreen",
     element: <SplitScreen />,
   },
+  {
+    icon: IdentificationIcon,
+    name: "asymmetrical",
+    path: "/asymmetrical",
+    element: <Asymmetrical />,
+  },
   /*{
     icon: UserCircleIcon,
     name: "profile",
@@ -45,13 +59,6 @@ export const routes = [
     name: "Sign Up",
     path: "/sign-up",
     element: <SignUp />,
-  },
-  {
-    icon: DocumentTextIcon,
-    name: "Docs",
-    href: "https://www.material-tailwind.com/docs/react/installation",
-    target: "_blank",
-    element: "",
   },
 ];
 
