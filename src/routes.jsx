@@ -6,6 +6,7 @@ import {
   Cards,
   SplitScreen,
   Asymmetrical,
+  FixedSidebar,
 } from "@/pages";
 import {
   HomeIcon,
@@ -41,6 +42,12 @@ export const routes = [
     name: "asymmetrical",
     path: "/asymmetrical",
     element: <Asymmetrical />,
+  },
+  {
+    icon: IdentificationIcon,
+    name: "fixedsidebar",
+    path: "/fixedsidebar",
+    element: <FixedSidebar />,
   },
   /*{
     icon: UserCircleIcon,
