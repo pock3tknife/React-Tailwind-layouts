@@ -23,7 +23,7 @@ export default function Sidebar() {
           <SidebarLink key={item.key} item={item} />
         ))}
       </div>
-      <div className="border-neutral-700 flex flex-col gap-0.5 border-t pt-2">
+      {/*<div className="border-neutral-700 flex flex-col gap-0.5 border-t pt-2">
         {DASHBOARD_SIDEBAR_BOTTOM_LINKS.map((item) => (
           <SidebarLink key={item.key} item={item} />
         ))}
@@ -33,7 +33,7 @@ export default function Sidebar() {
           </span>
           Log out
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 }
