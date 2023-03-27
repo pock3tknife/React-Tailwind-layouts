@@ -13,10 +13,10 @@ const linkClasses =
 
 export default function Sidebar() {
   return (
-    <div className="flex w-60 flex-col p-3 text-blue-400">
+    <div className="flex w-60 flex-col bg-blue-400 p-3 text-black">
       <div className="flex items-center gap-2 px-1 py-3">
         <FcBullish fontSize={24} />
-        <span className="text-lg text-blue-gray-400">OpenShop</span>
+        <span className="text-lg ">OpenShop</span>
       </div>
       <div className="flex flex-1 flex-col gap-0.5 py-8">
         {DASHBOARD_SIDEBAR_LINKS.map((item) => (
