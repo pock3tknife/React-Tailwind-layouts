@@ -16,6 +16,7 @@ import {
   Squares2X2Icon,
   IdentificationIcon,
   CodeBracketIcon,
+  PresentationChartBarIcon,
 } from "@heroicons/react/24/solid";
 
 export const routes = [
@@ -44,7 +45,7 @@ export const routes = [
     element: <Asymmetrical />,
   },
   {
-    icon: IdentificationIcon,
+    icon: PresentationChartBarIcon,
     name: "fixedsidebar",
     path: "/fixedsidebar",
     element: <FixedSidebar />,
