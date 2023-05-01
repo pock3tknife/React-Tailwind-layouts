@@ -5,3 +5,4 @@
 
 ###run###
 #> yarn dev
+#> npm run dev
